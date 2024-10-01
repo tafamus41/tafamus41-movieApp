@@ -8,10 +8,10 @@ import {
 import { Link } from "react-router-dom";
 import SwitchButton from "./SwitchButton";
 import avatar from "../assets/icons/avatar.png";
-import { useAuthContext } from "../context/AuthProvider";
+// import { useAuthContext } from "../context/AuthProvider";
 
 export default function Navbar() {
-  const { logOut, currentUser } = useAuthContext();
+  // const { logOut, currentUser } = useAuthContext();
   // const currentUser = { displayName: "felix franko" };
   // const currentUser = false;
   return (
