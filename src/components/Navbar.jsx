@@ -12,8 +12,7 @@ import { useAuthContext } from "../context/AuthProvider";
 
 export default function Navbar() {
   const { logOut, currentUser } = useAuthContext();
-  // const currentUser = { displayName: "felix franko" };
-  // const currentUser = false;
+  
   return (
     <>
       <Disclosure
@@ -33,7 +32,6 @@ export default function Navbar() {
                 </h5>
               )}
               <SwitchButton />
-              {/* Profile dropdown */}
               <Menu as="div" className="relative">
                 <div>
                   <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
